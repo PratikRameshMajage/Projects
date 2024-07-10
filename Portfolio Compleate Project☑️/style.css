@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(12, 12, 74);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(26, 26, 55);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(175, 175, 255);
+    font-size: 1.05rem;
+}
+main hr{
+    border: 0;
+    background-color: rgb(186, 186, 255);
+    height: 1px;
+    margin: 50px 80px;
+}
+.left{
+    font-size: 2rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+.firstsection > div{
+    width: 30%;
+}
+.leftssection{
+    font-size: 2rem; 
+}
+.leftssection .buttons{
+    padding: 15px 0; 
+}
+.leftssection  .btn{
+    padding: 12px;
+    background-color: blueviolet;
+    color: white;
+    border: solid 2px;
+    border-radius: 6px;
+    cursor: pointer;
+    /* font-size: 14 px; */
+}
+
+
+.rightsection img{
+    width: 80%;
+
+}
+.purple{
+    color: rgb(237, 113, 237);
+}
+.secontsection{
+    max-width: 80vw;
+    margin: auto;
+}
+.secontsection h1{
+    font-size: 2rem;
+}
+.secontsection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secontsection .vertical{
+    background-color: white;
+    width: 1px;
+    height: 80px; 
+    margin: 0 120px;
+}
+.text-grey{
+    color: grey;
+}
+.image-top{
+    width: 20px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-title{
+    position: relative;
+    top: 25px;
+    color: white;
+    width: 150px;
+    font-size: 14px;
+}
+.vertical-discreption{
+    position: relative;
+    top: 35px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+footer{
+    position: relative;
+    top:11rem;
+    background-color: rgb(0, 0, 41);
+}
+.footer{
+    display: flex;
+    margin: 23px 122px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.footer > div{
+    margin-top: 20px;
+    width: 200px;
+}
+.footer ul{
+    list-style: none;
+}
+footer .text-rights{
+    text-align: center;
+    color: gray;
+    padding: 5px 0;
+}
+#element{
+    color: rgb(237, 113, 237);
+}
